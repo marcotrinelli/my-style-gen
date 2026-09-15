@@ -1,0 +1,18 @@
+{
+  "name": "marcotrinelli",
+  "description": "Skills by Marco Trinelli.",
+  "owner": {
+    "name": "Marco Trinelli",
+    "url": "https://github.com/marcotrinelli"
+  },
+  "plugins": [
+    {
+      "name": "my-style-gen",
+      "source": "./",
+      "skills": ["./skills/my-style-gen"],
+      "description": "Builds a personal style skill from material you authored, so an agent works, writes and reports back in your idiom.",
+      "category": "productivity",
+      "tags": ["style", "personalization", "writing", "meta-skill"]
+    }
+  ]
+}

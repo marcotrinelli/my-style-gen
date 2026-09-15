@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "my-style-gen",
+  "displayName": "my-style-gen",
+  "version": "1.0.0",
+  "description": "Builds a personal style skill from material you authored, so an agent works, writes and reports back in your idiom.",
+  "author": {
+    "name": "Marco Trinelli",
+    "url": "https://github.com/marcotrinelli"
+  },
+  "homepage": "https://github.com/marcotrinelli/my-style-gen#readme",
+  "repository": "https://github.com/marcotrinelli/my-style-gen",
+  "license": "MIT",
+  "keywords": [
+    "style",
+    "personalization",
+    "writing",
+    "code-review",
+    "skill-generator",
+    "meta-skill"
+  ],
+  "skills": ["./skills/my-style-gen"]
+}
