@@ -1,15 +1,13 @@
 # my-style-gen
 
-A meta-skill that builds a personal style skill for one person, whatever they do for a
-living.
+**Your agent writes well. It just doesn't write like you.**
 
-Point it at material you produced — git repositories, folders of specs, decks,
-spreadsheets, contracts, notes. One agent per source reads it, works out how you work
-and how you write, drops anything below a competent baseline, and writes an installable
-skill — `my-style` — that a future agent follows.
+So every reply, every commit message, every spec lands in a stranger's idiom, and you
+rewrite it before you can use it. This fixes that once.
 
-The goal is legibility, not forgery. Reviewing agent work in a foreign style is slower
-than reviewing a colleague's work in a familiar one, so what this buys you is:
+Point it at work you already produced — git repositories, specs, decks, spreadsheets,
+contracts, notes. It reads each source, works out how you work and how you write, and
+installs a skill called `my-style` that every future agent session follows.
 
 - **Faster review** — the work and the prose explaining it read the way you write, and
   need fewer corrections
@@ -17,20 +15,28 @@ than reviewing a colleague's work in a familiar one, so what this buys you is:
   request is decoded the way a long-time colleague would decode it
 - **Personal touch** — what you make with an agent still reads like your work
 
-Two constraints shape it. Nothing about any person or profession is hardcoded (every
-prompt resolves at run time, so the output is personal and the tool is not). And style
-is adopted, weakness is not — a modern model already writes a cleaner first draft than
-most, so each analysis agent filters as it reads.
+Works for any line of work, not just engineering (an engineer's sources are
+repositories, a product manager's are specs and decks, a lawyer's are filings — same
+method, same output). And it adopts the style, not the weakness: a modern model already
+writes a cleaner first draft than most of us, so each analysis agent filters as it
+reads. The goal is legibility, not forgery.
 
 ## Install
 
-Any agent — Claude Code, Copilot, Codex, Cursor, Windsurf and 75 others:
+One command, any agent — Claude Code, Copilot, Codex, Cursor, Windsurf and 75 others:
 
 ```bash
 npx skills add marcotrinelli/my-style-gen
 ```
 
 Add `-g` to install for every project rather than just this one.
+
+Then ask for it in plain words:
+
+> build a style skill from my work
+
+<details>
+<summary>Other ways to install</summary>
 
 Claude Code, as a plugin:
 
@@ -39,8 +45,10 @@ Claude Code, as a plugin:
 /plugin install my-style-gen@marcotrinelli
 ```
 
-Or by hand: clone and copy `skills/my-style-gen` into `~/.claude/skills/`,
+By hand: clone and copy `skills/my-style-gen` into `~/.claude/skills/`,
 `~/.copilot/skills/`, or wherever your agent keeps its skills.
+
+</details>
 
 ## Companion skills
 
@@ -72,11 +80,8 @@ need none of them.
 
 ## Use
 
-Ask for it in plain words:
-
-> build a style skill from my work
-
-Or give it what it needs up front — what you do, and where your material is:
+Asking in plain words is enough. Or give it what it needs up front — what you do, and
+where your material is:
 
 ```
 /my-style-gen
