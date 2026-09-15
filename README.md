@@ -65,6 +65,9 @@ All five in one go:
 npx skills add anthropics/skills -g --skill skill-creator docx pptx pdf xlsx
 ```
 
+In Claude Code `skill-creator` is also carried by the official marketplace, so
+`/plugin install skill-creator@claude-plugins-official` works just as well.
+
 Without the format skills the analysis still runs — it falls back to `unzip`,
 `pdftotext`, `pandoc` or `markitdown` — but the read is lossier, and tracked changes and
 comments are where the best anti-pattern evidence lives. If your sources are plain text
