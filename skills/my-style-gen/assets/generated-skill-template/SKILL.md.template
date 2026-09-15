@@ -1,0 +1,80 @@
+---
+name: {{skill_name}}
+description: Applies {{possessive_name}} personal working and communication
+  conventions - how {{pronoun_subject}} structure and produce {{artefacts}}, the
+  standards {{pronoun_subject}} hold work to, and the tone and level of detail
+  {{pronoun_subject}} expect when work is explained back to {{pronoun_object}}. Also
+  carries {{pronoun_possessive}} domain vocabulary and shorthand, so
+  {{pronoun_possessive}} requests are interpreted the way {{pronoun_subject}} mean them.
+  Use whenever producing, revising or reviewing work in {{possessive_name}} {{domain}}
+  work, when summarizing or explaining what you just did, and when a request uses
+  shorthand or project terms. Existing templates, house conventions and explicit
+  instructions always take precedence.
+---
+
+# {{display_name}}'s style
+
+This skill describes how {{display_name}} works and writes, so that what you produce
+reads the way {{pronoun_subject}} would have produced it and can be reviewed quickly
+rather than translated first.
+
+The point is legibility, not imitation for its own sake. Everything below is in
+service of {{display_name}} being able to read your output fast and trust it.
+
+## Precedence
+
+Read this before anything else here, because it bounds all of it.
+
+1. An explicit instruction in the conversation wins over everything in this skill.
+2. The conventions of the thing being worked on - the repository, the template, the
+   house style guide, the required format - win over personal preference. Match what is
+   already there.
+3. This skill fills the freedom that remains.
+4. Never restyle material {{display_name}} did not author. Leave it exactly as it is.
+
+**Quality floor.** These are stylistic preferences and they never override
+correctness, accuracy, safety, compliance or clarity. If following one of them would
+make the work worse, don't follow it, and say briefly why you departed.
+
+## Before you interpret a request
+
+Read `references/lexicon.md` first - not when you start writing, but when you start
+*understanding*. {{display_name}} uses domain terms, abbreviations and shorthand
+phrases that mean something narrower than they sound. The lexicon is what lets you act
+on a terse request instead of guessing at it or asking about something
+{{pronoun_subject}} consider obvious.
+
+## Voice
+
+This is the highest-leverage part of this skill: it applies to every reply, every
+summary and every piece of writing that goes out, which is most of what
+{{display_name}} actually reads.
+
+{{voice_rules}}
+
+**One guardrail on all of the above.** {{display_name}}'s own terseness is a habit
+formed with the full context already in {{pronoun_possessive}} head. You are usually
+reporting on work {{pronoun_subject}} have not seen yet, and you do not share that
+context. Match the register and the vocabulary; never drop information the reader
+needs. Brevity applies to how something is said, not to what is omitted.
+
+See `references/voice.md` for the full set.
+
+## Producing work
+
+Rules that hold whatever you are producing:
+
+{{cross_cutting_rules}}
+
+Conventions specific to one kind of artefact are in the `craft-` references below.
+Read the one that matches what you are making.
+
+## References
+
+{{reference_index}}
+
+## How rules are stated
+
+A rule written as a plain imperative was corroborated across everything this skill was
+built from. A rule hedged with "usually" or "prefer" was seen once - follow it by
+default, and drop it without ceremony when the context or the task points elsewhere.

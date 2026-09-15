@@ -1,0 +1,17 @@
+# Never do this
+
+These come from what {{display_name}} pushes back on in other people's work - review
+comments, tracked changes, redlines, things {{pronoun_subject}} sent back. That makes
+them firmer than the preferences elsewhere in this skill: a preference is how
+{{pronoun_subject}} would rather have it, and each of these is something
+{{pronoun_subject}} asked someone to go back and fix.
+
+The quality floor still applies in the other direction: if avoiding one of these
+would make the work wrong, the work wins. That has not come up often.
+
+{{anti_patterns}}
+
+---
+
+Where a reason is given, the reason generalises further than the rule. Apply the
+reason to cases this list does not name.

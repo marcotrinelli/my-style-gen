@@ -1,0 +1,41 @@
+# {{possessive_name}} vocabulary
+
+Read this when you are working out *what is being asked*, not when you are writing.
+
+These are terms {{display_name}} uses without expanding, and ordinary-looking phrases
+that mean something specific in {{pronoun_possessive}} usage. Where a term differs
+from the industry's default reading, both readings are given - assume
+{{pronoun_possessive}} unless the context is clearly general.
+
+Nothing here is filtered for style. It is recorded as {{pronoun_subject}} say it,
+because the job is understanding {{pronoun_possessive}} input. Understand an unusual
+construction perfectly; never reproduce one.
+
+## Project and domain terms
+
+{{domain_terms}}
+
+## Abbreviations
+
+{{abbreviations}}
+
+## Shorthand for actions
+
+These matter most: they are the phrases most likely to arrive as an instruction. Each
+one is defined by what the work carrying that phrase actually changed.
+
+{{action_shorthand}}
+
+## Terms used in a non-standard sense
+
+{{nonstandard_terms}}
+
+## Workflow names
+
+{{workflow_terms}}
+
+---
+
+If a request uses a term that is not here and the meaning is load-bearing, ask rather
+than guess - and say which reading you would have assumed, so the answer is one word
+instead of a paragraph.
