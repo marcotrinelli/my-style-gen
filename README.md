@@ -1,4 +1,11 @@
+[![Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarcotrinelli%2Fmy-style-gen%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&label=version&color=blue)](CHANGELOG.md)
+[![License: MIT](https://img.shields.io/github/license/marcotrinelli/my-style-gen)](LICENSE)
+[![Claude Code plugin](https://img.shields.io/badge/Claude_Code-plugin-D97757?logo=claude&logoColor=white)](#other-ways-to-install)
+[![Skills](https://img.shields.io/badge/skills-1-blue)](skills/my-style-gen/SKILL.md)
 [![skills.sh](https://skills.sh/b/marcotrinelli/my-style-gen)](https://skills.sh/marcotrinelli/my-style-gen)
+[![Stars](https://img.shields.io/github/stars/marcotrinelli/my-style-gen?style=flat)](https://github.com/marcotrinelli/my-style-gen/stargazers)
+[![Issues](https://img.shields.io/github/issues/marcotrinelli/my-style-gen)](https://github.com/marcotrinelli/my-style-gen/issues)
+[![Last commit](https://img.shields.io/github/last-commit/marcotrinelli/my-style-gen)](https://github.com/marcotrinelli/my-style-gen/commits/main)
 
 
 # my-style-gen
