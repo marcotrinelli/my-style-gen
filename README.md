@@ -26,10 +26,11 @@ reads. The goal is legibility, not forgery.
 One command, any agent — Claude Code, Copilot, Codex, Cursor, Windsurf and 75 others:
 
 ```bash
-npx skills add marcotrinelli/my-style-gen
+npx skills add marcotrinelli/my-style-gen -g -a claude-code
 ```
 
-Add `-g` to install for every project rather than just this one.
+That installs it for every project, both in `~/.agents/skills/` for most of Agents and in `~/.claude/skills/` for Claude Code. Drop `-g` to install into the current
+project only.
 
 Then ask for it in plain words:
 
@@ -46,7 +47,7 @@ Claude Code, as a plugin:
 ```
 
 By hand: clone and copy `skills/my-style-gen` into `~/.claude/skills/`,
-`~/.copilot/skills/`, or wherever your agent keeps its skills.
+`~/.agents/skills/`, or wherever your agent keeps its skills.
 
 </details>
 
@@ -67,7 +68,7 @@ ones that match your sources:
 All five in one go:
 
 ```bash
-npx skills add anthropics/skills -g --skill skill-creator docx pptx pdf xlsx
+npx skills add anthropics/skills -g -a claude-code --skill skill-creator docx pptx pdf xlsx
 ```
 
 In Claude Code `skill-creator` is also carried by the official marketplace, so
