@@ -34,27 +34,23 @@ One command, any agent — Claude Code, Copilot, Codex, Cursor, Windsurf and 75 
 npx skills add marcotrinelli/my-style-gen -g -a claude-code
 ```
 
-That installs it for every project, both in `~/.agents/skills/` for most of Agents and in `~/.claude/skills/` for Claude Code. Drop `-g` to install into the current
-project only.
+That installs it for every project. Drop `-g` to install into the current project only.
 
 Then ask for it in plain words:
 
 > build a style skill from my work
 
-<details>
-<summary>Other ways to install</summary>
+### Other ways to install
 
-Claude Code, as a plugin:
+**Claude Code, as a plugin:**
 
 ```
 /plugin marketplace add marcotrinelli/my-style-gen
 /plugin install my-style-gen@marcotrinelli
 ```
 
-By hand: clone and copy `skills/my-style-gen` into `~/.claude/skills/`,
+**By hand:** clone and copy `skills/my-style-gen` into `~/.claude/skills/`,
 `~/.agents/skills/`, or wherever your agent keeps its skills.
-
-</details>
 
 ## Companion skills
 
@@ -98,8 +94,7 @@ where your material is:
 ```
 
 Whatever is missing, it asks for in one message — what you do, which sources to read,
-how to tell your material from everyone else's, your name and pronouns — then goes. As a
-Claude Code plugin the skill is namespaced, so it answers to `/my-style-gen:my-style-gen`.
+how to tell your material from everyone else's, your name and pronouns — then goes.
 
 Reading the sources is the expensive part (one agentic exploration per source), so
 prefer two or three substantial sources over many thin ones. Sources from unrelated
