@@ -161,11 +161,10 @@ Then write the folder where the user's agent looks for skills - `~/.claude/skill
 default, or `.agents/skills/` inside a project when they want it next to the work -
 confirming first if something is already there.
 
-**A skill that lands inside a git repository gets gitignored.** This is the common case
-for a technical user, who works in a repository and wants the skill loaded there. It
-describes one person, not a convention the project imposes on everyone, so append its
-path to that repository's `.gitignore` - checking first that it is not already covered -
-and say that you did. Skip this when the install path is outside any repository.
+**A skill that lands inside a git repository gets gitignored.** It describes one person,
+not a convention the project imposes on everyone, so append its path to that
+repository's `.gitignore` - checking first that it is not already covered - and say that
+you did. Skip this when the install path is outside any repository.
 
 **Write the three A/B tasks in the same pass**, into `ab-test/tasks/` inside the skill
 folder: one that produces the user's main artefact, one that asks for work to be

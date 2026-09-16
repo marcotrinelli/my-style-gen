@@ -1,6 +1,2 @@
 .DS_Store
 node_modules/
-
-# Local installs of this skill, written by `npx skills add ./`
-.agents/
-.claude/

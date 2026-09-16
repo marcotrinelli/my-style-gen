@@ -1,11 +1,16 @@
+[![skills.sh](https://skills.sh/b/marcotrinelli/my-style-gen)](https://skills.sh/marcotrinelli/my-style-gen)
+
+
 # my-style-gen
 
 **Your agent writes well. It just doesn't write like you.**
 
-So every reply, every commit message, every spec lands in a stranger's idiom, and you
-rewrite it before you can use it. This fixes that once.
+So the code it writes, the deck it drafts, the spec it fills in... all in a stranger's idiom: slower to read, deaf to the shorthand you actually
+use, and not quite yours by the time it ships. This fixes all three, once.
 
-Point it at work you already produced — git repositories, specs, decks, spreadsheets,
+![my-style](my-style.png)
+
+Point it at work you already produced: git repositories, specs, decks, spreadsheets,
 contracts, notes. It reads each source, works out how you work and how you write, and
 installs a skill called `my-style` that every future agent session follows.
 
@@ -102,9 +107,9 @@ contexts are worth more than two from the same team — agreement across them is
 separates your habits from the house style.
 
 The result installs as `my-style`, under `~/.claude/skills/` by default. Ask for another
-name where two people's skills have to sit side by side. Installed inside a git
-repository — the usual choice for a technical user — its path is added to that
-repository's `.gitignore`, because it describes you and not the project.
+name where two people's skills have to sit side by side. If it lands inside a git
+repository, its path is added to that repository's `.gitignore`, because it describes
+you and not the project.
 
 ## How it works
 
