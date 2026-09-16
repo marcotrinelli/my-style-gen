@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2026-09-16
+
+### Changed
+
+- Sources have to be material the user wrote themselves - work an agent produced end to
+  end carries the model's idiom, not the user's.
+
 ## [1.0.1] - 2026-09-16
 
 ### Changed
@@ -28,5 +35,6 @@ First public release.
 
 - Renamed from `my-style-generator` to `my-style-gen`.
 
+[1.0.2]: https://github.com/marcotrinelli/my-style-gen/releases/tag/v1.0.2
 [1.0.1]: https://github.com/marcotrinelli/my-style-gen/releases/tag/v1.0.1
 [1.0.0]: https://github.com/marcotrinelli/my-style-gen/releases/tag/v1.0.0

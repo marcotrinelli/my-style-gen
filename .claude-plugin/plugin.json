@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "my-style-gen",
   "displayName": "my-style-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Builds a personal style skill from material you authored, so an agent works, writes and reports back in your idiom.",
   "author": {
     "name": "Marco Trinelli",

@@ -79,6 +79,12 @@ touched costs a full agent run and yields little. Ask for sources spanning more 
 one context where they exist: a habit that shows up in two unrelated places is the
 person, and a habit that shows up in one may be the house style.
 
+The user has to have written the material themselves. Work an agent produced end to end
+and the user accepted unread carries the model's idiom, not theirs, and reading it back
+produces a skill describing the default this is meant to replace. Drafted by them, or
+reviewed and reshaped closely enough to call their own, is what the analysis needs - say
+so when asking for sources, and drop a source the user tells you is mostly generated.
+
 **Authorship.** Every source needs a way to tell the user's work from everyone else's.
 
 - *Git repository* - run `git log --format='%an <%ae>' | sort -u | head -30` and match

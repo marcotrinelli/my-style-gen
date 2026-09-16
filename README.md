@@ -96,6 +96,11 @@ where your material is:
 Whatever is missing, it asks for in one message — what you do, which sources to read,
 how to tell your material from everyone else's, your name and pronouns — then goes.
 
+> [!IMPORTANT]
+> Point it at work you actually wrote. Material an agent produced end to end carries
+> the model's idiom, not yours, so feeding it back gives you a skill describing the
+> default you were trying to get away from.
+
 Reading the sources is the expensive part (one agentic exploration per source), so
 prefer two or three substantial sources over many thin ones. Sources from unrelated
 contexts are worth more than two from the same team — agreement across them is what
