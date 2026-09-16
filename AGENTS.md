@@ -19,8 +19,12 @@ there is no build, no test suite and no runtime.
 
 ## Rules
 
-- Bump the version and write the changelog entry in the same change - read
-  `.agents/skills/update-version/SKILL.md` before touching either.
+- Any change to what ships - `skills/my-style-gen/`, `.claude-plugin/`, `README.md` -
+  bumps `version` in `.claude-plugin/plugin.json`, the only version field in the
+  repository. Patch for wording and corrections, minor for a new rule, reference or
+  asset, major for a rename or a changed invocation. Add the matching `CHANGELOG.md`
+  section and its link reference in the same change, written for the reader who
+  installed the skill. Repository-internal files do not count.
 - Keep `SKILL.md` under 5000 words. Move anything longer into `references/` and link it
   from `SKILL.md` with a note on when to read it.
 - Wrap markdown at 88 characters. Leave long links and table rows alone.
